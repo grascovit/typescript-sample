@@ -1,0 +1,22 @@
+{
+  "name": "typescript-sample",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/tsc",
+    "watch": "./node_modules/.bin/tsc --watch",
+    "start": "./node_modules/.bin/webpack-dev-server -d --watch --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/grascovit/typescript-sample.git"
+  },
+  "author": "Gabriel Rascovit",
+  "devDependencies": {
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "webpack": "^3.9.1",
+    "webpack-dev-server": "^2.9.5"
+  }
+}
